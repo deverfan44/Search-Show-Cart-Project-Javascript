@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+p{
+    margin-bottom: 0 !important;
+}
+header {
+    background-color: aliceblue;
+}
+.main_header > * {
+    margin-bottom: 10px;
+}
+.main_header {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.head_wrapper_div {
+    border: 2px solid black;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.search_bar {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    text-align: center;
+    padding: 20px 0px;
+}
+.search_bar input {
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0;
+    border: 2px solid cadetblue;
+    margin-top: 10px;
+}
+
+
+
+
+main {
+    background-color: #d0f7d6;
+}
+
+.bannar_section {
+    width: 90%;
+    margin: auto;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bannar_75 {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    gap: 15px;
+}
+.bannar_75 .item_box {
+    width: 31%;
+    border: 1px solid green;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+}
+.bannar_25 {
+    border: 1px solid gray;
+    width: 23%;
+    padding: 10px 0px;
+    line-height: 30px;
+    background-color: #fafcff;
+}
+.bannar_75 .item_box .add_button {
+    padding: 8px 31px;
+    outline: 0;
+    border: 0;
+    background-color: #eb8b18;
+    font-size: 17px;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.bannar_75 .item_box .add_button_2 {
+    padding: 2px 24px;
+    outline: 0;
+    border: 0;
+    background-color: #1b2c27;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.add_div_box {
+    border: 1px solid black;
+    padding: 10px 15px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #d3ffff;
+}
+
+.close_btn {
+    border: 0;
+    background-color: red;
+    color: white;
+    padding: 0px 10px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+.right_cls_btn {
+    text-align: right;
+}
+
+
+
+.hide {
+    display: none;
+}
